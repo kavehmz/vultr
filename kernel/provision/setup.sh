@@ -5,7 +5,7 @@ sleep 15
 apt-get update
 apt-get install -y build-essential linux-source bc kmod cpio flex cpio libncurses5-dev \
     binutils libelf-dev libssl-dev cgroup-tools libseccomp-dev gettext gdb apt-file strace \
-    libtool pkg-config autoconf autopoint
+    libtool pkg-config autoconf autopoint git valgrind linux-perf auditd attr acl
 
 echo 'deb http://deb.debian.org/debian/ sid main' > /etc/apt/sources.list.d/sid.list
 
